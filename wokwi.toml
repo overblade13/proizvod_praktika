@@ -1,0 +1,9 @@
+[wokwi]
+version = 1
+firmware = '.pio/build/esp32dev/firmware.bin'
+elf = '.pio/build/esp32dev/firmware.elf'
+
+# Проброс HTTP-порта 80 ESP32 на http://localhost:8180 на компьютере
+[[net.forward]]
+from = "localhost:8180"
+to = "target:80"

@@ -1,0 +1,2 @@
+# Библиотеки Wokwi
+ArduinoJson@^7.0.0
